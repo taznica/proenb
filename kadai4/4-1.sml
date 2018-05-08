@@ -1,0 +1,2 @@
+fun intro {surname = a : string, name = b : string, age = c : int} = "My name is " + a + " " + b + ". I am " + Int.toString c + " years old."
+val my_intro = intro {surname = "Tsuchida", name = "Taichi", age = 21};
